@@ -206,7 +206,7 @@ body {
     display: flex;
     align-items: center;
     margin-left: 400px;
-    margin-top: -120px;
+    margin-top: -130px;
     height: 200px;
     width: 600px;
     background-color: hsl(0, 1%, 100%);
@@ -243,32 +243,63 @@ body {
     justify-content: space-evenly;
     min-height: 40vh;
     max-width: 100%;
-    background-color: rgb(0, 132, 255);
+    background-color: var(--Very-Dark-Cyan);
     color: white;
 }
 
-.huddle-contact, .huddle-info, .huddle-support {
-    margin-top: 150px;
+.location {
+    margin-top: 55px;
+    width: 380px;
 }
 
-.location {
-    margin-top: 47.5px;
+.location-subtext {
+    margin-left: 43px;
+}
+
+.phone, .e-mail {
+    margin-left: -5px;
+}
+
+.icon-image {
+    margin-bottom: -5px;
+    margin-right: 30px;
+}
+
+.icon-subtext {
+    margin-left: 42px;
+}
+
+.huddle-contact, .huddle-info, .huddle-support {
+    margin-top: 140px;
 }
 
 .huddle-info, .huddle-support {
-    margin-top: 227px;
+    margin-top: 218px;
 }
 
-.huddle-contact p, .huddle-info p, .huddle-support p {
-    margin: 15px;
+.huddle-contact li, .huddle-info li, .huddle-support li {
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+.huddle-image {
+    margin-bottom: -20px;
 }
 
 .huddle-contact {
     width: 25%; 
 }
 
-.huddle-copyright, footer {
-    margin-top: 250px;
+footer {
+    font-size: 15px;
+    margin-top: 200px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 225px;
+    margin-right: 250px;
 }
 
 
@@ -294,14 +325,14 @@ body {
     }
 }
 
-
-
 /* -- Attribution -- */
 .attribution { 
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 11px; 
     text-align: center; 
 }
 
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: var(--Pink);
 }
