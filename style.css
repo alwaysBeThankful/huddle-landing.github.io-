@@ -16,297 +16,277 @@ body {
     display: flex;
     justify-content: center;
     font-family: 'Open Sans', sans-serif;
-    color: var(--Very-Dark-Cyan)
+    color: var(--Very-Dark-Cyan);
 }
 
+.huddle-container {
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 1fr;
+    width: 1440px;
+}
+.nav-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+    padding: 25px;
+    background-image: url(./images/bg-hero-mobile.svg);
+    background-color: var(--Very-Pale-Cyan);
+    background-repeat: no-repeat;
+}
+.nav-cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 170px;
+    color: var(--Very-Dark-Cyan);
+    background-color: hsl(0, 1%, 100%);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.header {
+    display: flex;
+    justify-content: center;
+}
+.huddle-logo img {
+    width: 50%;
+    margin-right: 100px;
+}
+.hero {
+    margin-top: 50px;
+    color: var(--Very-Dark-Cyan);
+}
 
+.hero p {
+    margin-top: 25px;
+}
+.hero img {
+    margin-top: 50px;
+    width: 100%;
+}
+.hero button {
+    background-color: var(--Pink);
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    border-radius: 35px;
+    padding: 15px 70px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 35px;
+}
+.hero-maintext {
+    margin-top: 35px;
+}
 
+.huddle-logo {
+    margin-top: 10px;
+}
 
+.huddle-benefits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.huddle-growth {
+    margin-bottom: 35px;
+    padding: 15px;
+    height: 480px;
+    width: 300px;
+    color: var(--Very-Dark-Cyan);
+    background-color: hsl(0, 1%, 100%);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+.huddle-image img {
+    display: flex;
+    width: 250px;
+    margin-left: 25px;
+    margin-bottom: 60px;
+    margin-top: 50px;
+}
+.growth-text {
+    font-size: 15px;
+    text-align: center;
+    width: 300px;
+}
+.growth-text h2 {
+    margin-bottom: 15px;
+}
+/* -- -- */
+.huddle-flow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+    padding: 15px;
+    height: 480px;
+    width: 300px;
+    color: var(--Very-Dark-Cyan);
+    background-color: hsl(0, 1%, 100%);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+.flow-image img {
+    width: 250px;
+}
+.flow-text {
+    align-items: center;
+    font-size: 15px;
+    text-align: center;
+    width: 270px;
+    margin-top: 80px;
+}
+.flow-text p {
+    margin-top: 25px;
+}
+/* -- -- */
+.huddle-user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 220px;
+    padding: 15px;
+    height: 480px;
+    width: 300px;
+    color: var(--Very-Dark-Cyan);
+    background-color: hsl(0, 1%, 100%);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+.user-image img {
+    width: 250px;
+}
+.user-text {
+    align-items: center;
+    font-size: 15px;
+    text-align: center;
+    width: 300px;
+    margin-top: 70px;
+}
+.user-text p {
+    margin-top: 25px;
+}
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px;
+    height: 180px;
+    width: 350px;
+    background-color: hsl(0, 1%, 100%);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
 
+.cta-text  {
+    text-align: center;
+    font-size: 12px;
+    color: var(--Very-Dark-Cyan);
+}
 
+.cta-text button {
+    background-color: var(--Pink);
+    color: #fff;
+    font-size: 12px;
+    border: none;
+    border-radius: 35px;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 400;
+    margin-top: 25px;
+}
+.footer-container {
+    background-color: var(--Very-Dark-Cyan);
+    color: #fff;
+}
+.huddle-contact {
+    margin-left: 20px;
+}
+.huddle-footerlogo {
+    margin-top: 60px;
+}
+ul img {
+    margin-right: 15px;
+    margin-top: 25px;
+}
+ul li {
+    list-style: none;
+}
+.huddle-links {
+    margin-left: 20px;
+    margin-top: 50px;
+}
 
+.huddle-links ul li {
+    margin-top: 15px;
+}
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 15px;
+}
+.facebook {
+    background: #f00;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.attribution {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.attribution a {
+    color: var(--Pink);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 550px) {
-    .huddle-container {
-        display: grid;
-        min-height: 100vh;
-        grid-template-columns: 1fr;
-        width: 1440px;
+@media only screen and (min-width: 551px) {
+    .hero-maintext h2 {
+        width: 350px;
+        font-size: 30px;
+        margin-left: 30px;
     }
 
-    .nav-bar {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 80px;
-        padding: 25px;
-        background-image: url(./images/bg-hero-mobile.svg);
-        background-color: var(--Very-Pale-Cyan);
+    .hero-maintext p {
+        margin-left: 30px;
+        width: 480px;
     }
 
-    .nav-cta {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 35px;
-        width: 170px;
-        color: var(--Very-Dark-Cyan);
-        background-color: hsl(0, 1%, 100%);
-        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-        border-radius: 15px;
-        font-size: 15px;
-        font-weight: 700;
+    .hero button {
+        margin-left: 30px;
     }
 
-    .header {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .hero img {
+        margin-left: 650px;
+        margin-top: -300px;
+        width: 50%;
+    }
+
+    .huddle-logo {
+        margin-right: 800px;
     }
 
     .huddle-logo img {
         width: 50%;
-        margin-right: 100px;
-    }
-
-    .hero {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        width: 300px;
-        margin-top: 50px;
-        color: var(--Very-Dark-Cyan);
-    }
-
-    .hero p {
-        margin-top: 25px;
-    }
-    .hero img {
-        margin-top: 50px;
-        width: 100%;
-    }
-
-    .hero button {
-        background-color: var(--Pink);
-        color: #fff;
-        font-size: 15px;
-        border: none;
-        border-radius: 35px;
-        padding: 15px 70px;
-        text-align: center;
-        text-decoration: none;
-        font-size: 13px;
-        font-weight: 700;
-        margin-top: 35px;
-    }
-
-    .hero-maintext {
-        margin-top: 35px;
-    }
-
-    .huddle-benefits {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    .huddle-growth {
-        margin-bottom: 35px;
-        padding: 15px;
-        height: 480px;
-        width: 300px;
-        color: var(--Very-Dark-Cyan);
-        background-color: hsl(0, 1%, 100%);
-        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-        border-radius: 15px;
-    }
-
-    .huddle-image img {
-        display: flex;
-        width: 250px;
-        margin-left: 25px;
-        margin-bottom: 60px;
-        margin-top: 50px;
-    }
-
-    .growth-text {
-        font-size: 15px;
-        text-align: center;
-        width: 300px;
-    }
-
-    .growth-text h2 {
-        margin-bottom: 15px;
-    }
-
-    /* -- -- */
-    .huddle-flow {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 35px;
-        padding: 15px;
-        height: 480px;
-        width: 300px;
-        color: var(--Very-Dark-Cyan);
-        background-color: hsl(0, 1%, 100%);
-        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-        border-radius: 15px;
-    }
-
-    .flow-image img {
-        width: 250px;
-    }
-
-    .flow-text {
-        align-items: center;
-        font-size: 15px;
-        text-align: center;
-        width: 270px;
-        margin-top: 80px;
-    }
-
-    .flow-text p {
-        margin-top: 25px;
-    }
-
-    /* -- -- */
-    .huddle-user {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 220px;
-        padding: 15px;
-        height: 480px;
-        width: 300px;
-        color: var(--Very-Dark-Cyan);
-        background-color: hsl(0, 1%, 100%);
-        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-        border-radius: 15px;
-    }
-
-    .user-image img {
-        width: 250px;
-    }
-
-    .user-text {
-        align-items: center;
-        font-size: 15px;
-        text-align: center;
-        width: 300px;
-        margin-top: 70px;
-    }
-
-    .user-text p {
-        margin-top: 25px;
-    }
-
-    .cta {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: -100px;
-        height: 180px;
-        width: 350px;
-        background-color: hsl(0, 1%, 100%);
-        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-        border-radius: 15px;
-    }
-    
-    .cta-text  {
-        text-align: center;
-        font-size: 12px;
-        color: var(--Very-Dark-Cyan);
-    }
-    
-    .cta-text button {
-        background-color: var(--Pink);
-        color: #fff;
-        font-size: 12px;
-        border: none;
-        border-radius: 35px;
-        padding: 15px 50px;
-        text-align: center;
-        text-decoration: none;
-        font-weight: 400;
-        margin-top: 25px;
-    }
-
-    .footer-container {
-        background-color: var(--Very-Dark-Cyan);
-        color: #fff;
-    }
-
-    .huddle-contact {
-        margin-left: 20px;
-    }
-
-    .huddle-footerlogo {
-        margin-top: 60px;
-    }
-
-    ul img {
-        margin-right: 15px;
-        margin-top: 25px;
-    }
-
-    ul li {
-        list-style: none;
-    }
-
-    .huddle-links {
-        margin-left: 20px;
-        margin-top: 50px;
-    }
-    
-    .huddle-links ul li {
-        margin-top: 15px;
-    }
-
-    .socials {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 50px;
-        gap: 15px;
-    }
-
-    .facebook {
-        background: #f00;
-        width: 200px;
-        height: 200px;
-        border-radius: 50%;
-    }
-
-    .attribution {
-        text-align: center;
-        font-size: 12px;
-        margin-top: 20px;
-    }
-
-    .attribution a {
-        color: var(--Pink);
+        margin-right: 120px;
+        margin-bottom: 90px;
     }
 }
