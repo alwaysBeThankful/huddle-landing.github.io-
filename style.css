@@ -420,7 +420,7 @@ body {
     .footer-container {
         display: flex;
         flex-direction: row;
-        height: 530px;
+        height: 520px;
     }
 
     .cta {
