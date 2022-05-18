@@ -427,7 +427,7 @@ body {
         position: absolute;
         height: 210px;
         width: 650px;
-        margin-left: 440px;
+        margin-left: 420px;
     }
 
     .cta-text h2 {
@@ -496,7 +496,7 @@ body {
 
     .huddle-copyright p {
         margin-top: 420px;
-    margin-left: -67px;
+        margin-left: -67px;
     }
 
     .attribution {
