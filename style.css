@@ -19,6 +19,10 @@ body {
     color: var(--Very-Dark-Cyan);
 }
 
+.huddle-container {
+    max-width: 1440px;
+}
+
 .nav-bar {
     display: flex;
     flex-direction: column;
@@ -423,7 +427,7 @@ body {
         position: absolute;
         height: 210px;
         width: 650px;
-        margin-left: 400px;
+        margin-left: 440px;
     }
 
     .cta-text h2 {
