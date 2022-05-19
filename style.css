@@ -12,498 +12,221 @@
     padding: 0;
 }
 
-body {
-    display: flex;
-    justify-content: center;
-    font-family: 'Open Sans', sans-serif;
-    color: var(--Very-Dark-Cyan);
-}
-
-.huddle-container {
-    max-width: 1440px;
-}
-
-.nav-bar {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 80px;
-    padding: 25px;
-    background-image: url(./images/bg-hero-mobile.svg);
-    background-color: var(--Very-Pale-Cyan);
-    background-repeat: no-repeat;
-}
-
-.nav-cta {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 35px;
-    width: 170px;
-    color: var(--Very-Dark-Cyan);
-    background-color: hsl(0, 1%, 100%);
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-    border-radius: 15px;
-    font-size: 15px;
-    font-weight: 700;
-}
-.header {
-    display: flex;
-    justify-content: center;
-}
-.huddle-logo img {
-    width: 50%;
-    margin-right: 100px;
-}
-.hero {
-    margin-top: 50px;
-    color: var(--Very-Dark-Cyan);
-}
-
-.hero p {
-    margin-top: 25px;
-}
-.hero img {
-    margin-top: 50px;
-    width: 100%;
-}
-.hero button {
-    background-color: var(--Pink);
-    color: #fff;
-    font-size: 15px;
-    border: none;
-    border-radius: 35px;
-    padding: 15px 70px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 13px;
-    font-weight: 700;
-    margin-top: 35px;
-}
-.hero-maintext {
-    margin-top: 35px;
-    text-align: center;
-}
-
-.huddle-logo {
-    margin-top: 10px;
-}
-
-.huddle-benefits {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.huddle-growth {
-    margin-bottom: 35px;
-    padding: 15px;
-    height: 480px;
-    width: 300px;
-    color: var(--Very-Dark-Cyan);
-    background-color: hsl(0, 1%, 100%);
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-    border-radius: 15px;
-}
-.huddle-image img {
-    display: flex;
-    width: 250px;
-    margin-left: 25px;
-    margin-bottom: 60px;
-    margin-top: 50px;
-}
-.growth-text {
-    font-size: 15px;
-    text-align: center;
-    width: 300px;
-}
-.growth-text h2 {
-    margin-bottom: 15px;
-}
-
-.huddle-flow {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 35px;
-    padding: 15px;
-    height: 480px;
-    width: 300px;
-    color: var(--Very-Dark-Cyan);
-    background-color: hsl(0, 1%, 100%);
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-    border-radius: 15px;
-}
-.flow-image img {
-    width: 250px;
-}
-.flow-text {
-    align-items: center;
-    font-size: 15px;
-    text-align: center;
-    width: 270px;
-    margin-top: 80px;
-}
-.flow-text p {
-    margin-top: 25px;
-}
-
-.huddle-user {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 220px;
-    padding: 15px;
-    height: 480px;
-    width: 300px;
-    color: var(--Very-Dark-Cyan);
-    background-color: hsl(0, 1%, 100%);
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-    border-radius: 15px;
-}
-.user-image img {
-    width: 250px;
-}
-
-.user-text {
-    align-items: center;
-    font-size: 15px;
-    text-align: center;
-    width: 260px;
-    margin-top: 50px;
-}
-.user-text p {
-    margin-top: 25px;
-}
-
-.cta {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 30px;
-    margin-top: -100px;
-    height: 180px;
-    width: 350px;
-    background-color: hsl(0, 1%, 100%);
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-    border-radius: 15px;
-}
-
-.cta-text  {
-    text-align: center;
-    font-size: 12px;
-    color: var(--Very-Dark-Cyan);
-}
-
-.cta-text button {
-    background-color: var(--Pink);
-    color: #fff;
-    font-size: 12px;
-    border: none;
-    border-radius: 35px;
-    padding: 15px 50px;
-    text-align: center;
-    text-decoration: none;
-    font-weight: 400;
-    margin-top: 25px;
-}
-
-.footer-container {
-    background-color: var(--Very-Dark-Cyan);
-    color: #fff;
-    height: 865px;
-}
-
-.footer-container a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.huddle-contact {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    margin-left: 20px;
-    
-}
-
-.huddle-footerlogo {
-    margin-top: 60px;
-}
-
-.huddle-footerlogo img {
-    width: 50%;
-    margin-top: 110px;
-}
-
-.faq {
-    display: flex;
-    flex-direction: column;
-    margin-top: 50px;
-    margin-left: 25px;
-    gap: 15px;
-}
-
-.contact {
-    display: flex;
-    flex-direction: column;
-    margin-top: 13px;
-    margin-left: 25px;
-    gap: 15px;
-}
-
-.socials {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    gap: 15px;
-}
-
-.facebook {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-}
-
-.huddle-location a img,
-.huddle-number a img,
-.huddle-email a img {
-    margin-left: 3px;
-}
-
-.huddle-location p {
-    margin-left: 35px;
-    margin-top: -29px;
-    width: 350px;
-}
-
-.huddle-number p, .huddle-email p {
-    margin-left: 40px;
-    margin-top: -25px;
-    width: 350px;
-}
-
-.huddle-copyright {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 12px;
-}
-
-.attribution {
-    text-align: center;
-    font-size: 12px;
-    margin-top: 60px;
-}
-
-.attribution a {
-    color: var(--Pink);
-}
-
-@media only screen and (min-width: 550px) {
-    .hero-maintext {
-        text-align: start;
-    }
-
-    .hero-maintext h2 {
-        width: 350px;
-        font-size: 30px;
-        margin-left: 30px;
-    }
-
-    .hero-maintext p {
-        margin-left: 30px;
-        width: 480px;
-    }
-
-    .hero button {
-        margin-left: 30px;
-    }
-
-    .hero img {
-        margin-left: 650px;
-        margin-top: -390px;
-        width: 50%;
-    }
-
-    .huddle-logo {
-        margin-right: 800px;
-    }
-
-    .huddle-logo img {
-        width: 50%;
-        margin-right: 120px;
-        margin-bottom: 90px;
-    }
-
-    .huddle-growth {
-        color: var(--Very-Dark-Cyan);
-        height: 400px;
-        width: 1200px;
-    }
-
-    .huddle-image img {
-        width: 35%;
-        margin-left: 720px;
-        margin-top: 30px;
-    }
-
-    .growth-text {
-        margin-top: -305px;
-        margin-left: 80px;
-        text-align: start;
-        width: 400px;
-    }
-
-    .huddle-flow {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        color: var(--Very-Dark-Cyan);
-        height: 400px;
-        width: 1200px;
+@media only screen and (max-width: 480px) {
+    .huddle-content {
+        background-image: url(./images/bg-hero-mobile.svg);
+        background-color: var(--Very-Pale-Cyan);
+        background-repeat: no-repeat;
     }
     
-    .flow-image img, .flow-text  {
-        margin-top: 100px;
-    }
-
-    .flow-image img {
-        width: 50%;
-        margin-top: 60px;
-        margin-left: 60px;
-    }
-
-    .flow-text {
-        font-size: 15px;
-        text-align: start;
-        width: 400px;
-        margin-top: 120px;
-        margin-right: 60px;
-    }
-
-    .flow-text p {
-        width: 420px;
-    }
-
-    .huddle-user {
+    .nav-bar {
         display: flex;
-        flex-direction: row-reverse;
+        justify-content: space-between;
         align-items: center;
+        padding: 1rem;
+    }
+    
+    .nav-bar img {
+        max-width: 40%;
+    }
+    
+    .nav-bar button {
+        padding: 0.3rem 1.7rem;
+        background-color: hsl(0, 1%, 100%);
+        border-radius: 0.9rem;
+        border: solid #fff;
+        box-shadow: 0 0 0.9rem rgba(0, 0, 0, 0.1);
+    }
+    
+    .huddle-hero {
+        padding: 1rem;
+        text-align: center;
+    }
+    
+    .huddle-hero h2 {
         color: var(--Very-Dark-Cyan);
-        height: 400px;
-        width: 1200px;
+        font-family: 'Poppins', sans-serif;
+        max-width: 19rem;
+        margin: 0 auto;
+        margin-top: 2rem;
     }
-
-    .user-text {
-        margin-top: 0px;
-        text-align: start;
-        width: 700px;
-        margin-left: 100px;
+    
+    .huddle-hero p {
+        color: var(--Very-Dark-Cyan);
+        font-family: 'Open Sans', sans-serif;
+        max-width: 19rem;
+        margin: 0 auto;
+        margin-top: 1rem;
     }
-
-    .user-image {
-        display: flex;
-        justify-content: flex-end;
-        margin-right: 10px;
+    
+    .huddle-hero button {
+        text-align: center;
+        text-decoration: none;
+        background-color: var(--Pink);
+        color: #fff;
+        font-size: 1.2rem;
+        border: none;
+        border-radius: 2.2rem;
+        padding: 1rem 4.4rem;
+        font-size: 0.8rem;
+        font-weight: 700;
+        margin-top: 2rem;
     }
-    .user-image img {
-        width: 70%;
+    
+    .huddle-hero img {
+        display: block;
+        max-width: 95%;
+        margin: 3.5rem auto 1rem auto;
     }
-
-    .footer-container {
-        display: flex;
-        flex-direction: row;
-        height: 520px;
+    
+    .huddle-growth, 
+    .huddle-flow, 
+    .huddle-user {
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        height: 22rem;
+        max-width: 15rem;
+        margin: 2rem auto;
+        padding: 3rem;
+        border-radius: 15px;
+        background-color: hsl(0, 1%, 100%);
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        color: var(--Very-Dark-Cyan);
     }
-
-    .cta {
-        position: absolute;
-        height: 210px;
-        width: 650px;
-        margin-left: 420px;
+    
+    .huddle-growth h2,
+    .huddle-flow h2,
+    .huddle-user h2 {
+        color: var(--Very-Dark-Cyan);
+        margin-top: 2.5rem;
+        font-size: 1.3rem;
     }
-
-    .cta-text h2 {
-        font-size: 25px;
+    
+    .huddle-growth p,
+    .huddle-flow p,
+    .huddle-user p {
+        color: var(--White-Smoke);
+        margin-top: 1rem;
+        font-size: 0.83rem;
     }
-
-    .cta-text button {
-        padding: 20px 85px;
-    }
-
-    .huddle-contact {
+    
+    .huddle-cta {
         display: flex;
         flex-direction: column;
-        gap: 30px;
-        margin-left: 90px;
+        justify-content: center;
+        align-content: center;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        height: 10rem;
+        max-width: 22rem;
+        margin: 2rem auto;
+        border-radius: 15px;
+        background-color: hsl(0, 1%, 100%);
+        box-shadow: 0 0 0.9rem rgba(0, 0, 0, 0.1);
+        color: var(--Very-Dark-Cyan);
+        transform: translate(0px, 100px);
     }
-
+    
+    .huddle-cta h2 {
+        color: var(--Very-Dark-Cyan);
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.2rem;
+    }
+    
+    .huddle-cta button {
+        text-decoration: none;
+        background-color: var(--Pink);
+        color: #fff;
+        font-size: 1.2rem;
+        border: none;
+        border-radius: 2.2rem;
+        padding: 1rem 4.4rem;
+        font-size: 0.8rem;
+        font-weight: 700;
+        margin-top: 1.2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    img {
+        max-width: 100%;
+    }
+    
+    .huddle-footer {
+        background-color: var(--Very-Dark-Cyan);
+        padding: 1rem;
+    }
+    
     .huddle-footerlogo {
-        margin-top: 60px;
-        margin-bottom: 20px;
+        margin-top: 7rem;
     }
-
-    .huddle-location p {
-        margin-left: 30px;
-        margin-top: -29px;
-        width: 350px;
+    
+    .huddle-footer img {
+        max-width: 40%;
+        margin-top: 1.5rem;
     }
-
-    .huddle-number p, .huddle-email p {
-        margin-left: 35px;
-        margin-top: -25px;
-        width: 350px;
+    
+    .huddle-footer a {
+        font-family: 'Open Sans', sans-serif;
+        color: #fff;
+        text-decoration: none;
     }
-
-    .huddle-support {
-        display: flex;
-        margin-top: 200px;
-        margin-left: 100px;
-    }
-
-    .faq {
+    
+    .huddle-faq,
+    .huddle-career {
         display: flex;
         flex-direction: column;
-        margin-top: 50px;
-        margin-left: 110px;
-        gap: 20px;
+        margin-top: 0.6rem;
+        gap: 0.6rem;
     }
-
-    .contact {
-        display: flex;
-        flex-direction: column;
-        margin-top: 50px;
-        margin-left: 110px;
-        gap: 20px;
+    
+    .huddle-faq {
+        margin-top: 1.5rem;
     }
-
+    
+    .huddle-contact a,
+    .huddle-phone a,
+    .huddle-email a {
+        margin-left: 1rem;
+    }
+    
+    .huddle-contact a {
+        display: block;
+        transform: translate(1.3rem, -1.6rem);
+        max-width: 18.4rem;
+    }
+    
+    .huddle-phone,
+    .huddle-email {
+        transform: translateY(-2rem);
+    }
     .socials {
+        color: #fff;
+    }
+    
+    .socials p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.8rem;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    
+    .social-media {
         display: flex;
         justify-content: center;
-        align-items: center;
-        margin-top: 100px;
-        margin-left: 160px;
-        margin-bottom: 100px;
-        gap: 15px;
+        gap: 2rem;
+        margin-top: 3rem;
     }
-
-    .huddle-copyright p {
-        margin-top: 420px;
-        margin-left: -67px;
-    }
-
+    
     .attribution {
-        position: absolute;
         text-align: center;
-        font-size: 10px;
-        margin-top: 500px;
-        margin-left: 600px;
+        font-size: 0.6rem;
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 2rem;
+        color: #fff;
+    }
+    
+    .attribution a {
+        color: var(--Pink);
     }
 }
