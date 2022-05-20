@@ -12,7 +12,11 @@
     padding: 0;
 }
 
-@media only screen and (max-width: 480px) {
+body {
+    height: 100vh;
+}
+
+@media only screen and (min-width: 320px) {
     .huddle-content {
         background-image: url(./images/bg-hero-mobile.svg);
         background-color: var(--Very-Pale-Cyan);
@@ -73,21 +77,24 @@
         margin-top: 2rem;
     }
     
-    .huddle-hero img {
+    .hero-image img {
         display: block;
-        max-width: 95%;
+        max-width: 90%;
         margin: 3.5rem auto 1rem auto;
+        padding-bottom: 1.5rem;
     }
     
     .huddle-growth, 
     .huddle-flow, 
     .huddle-user {
+        display: flex;
+        flex-direction: column;
         font-family: 'Open Sans', sans-serif;
         text-align: center;
-        height: 22rem;
-        max-width: 15rem;
+        height: 60%;
+        max-width: 80%;
         margin: 2rem auto;
-        padding: 3rem;
+        padding: 1.5rem;
         border-radius: 15px;
         background-color: hsl(0, 1%, 100%);
         box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
@@ -108,6 +115,13 @@
         color: var(--White-Smoke);
         margin-top: 1rem;
         font-size: 0.83rem;
+        font-weight: 400;
+    }
+
+    .huddle-growth img,
+    .huddle-flow img,
+    .huddle-user img {
+        max-width: 100%;
     }
     
     .huddle-cta {
@@ -146,10 +160,6 @@
         margin-top: 1.2rem;
         margin-left: auto;
         margin-right: auto;
-    }
-    
-    img {
-        max-width: 100%;
     }
     
     .huddle-footer {
@@ -229,4 +239,125 @@
     .attribution a {
         color: var(--Pink);
     }
+}
+
+@media only screen and (min-width: 480px) {
+    .huddle-content {
+        padding: 1rem;
+    }
+
+    .nav-bar img {
+        max-width: 25%;
+    }
+    .huddle-hero h2 {
+        max-width: 23rem;
+    }
+
+    .huddle-hero p {
+        max-width: 30rem;
+    }
+
+    .huddle-hero button {
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .huddle-content {
+        padding: 1rem;
+    }
+
+    .nav-bar img {
+        max-width: 25%;
+    }
+    .huddle-hero h2 {
+        max-width: 33rem;
+    }
+
+    .huddle-hero p {
+        max-width: 30rem;
+    }
+
+    .huddle-hero button {
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .huddle-content {
+        height: 31rem;
+    }
+
+    .nav-bar img {
+        max-width: 15%;
+    }
+    
+    .huddle-hero {
+        text-align: start;
+    }
+
+    .huddle-hero h2,
+    .huddle-hero p {
+        margin-left: 0rem;
+    }
+
+    .huddle-hero h2 {
+        margin-top: 5rem;
+        max-width: 20rem;
+    }
+
+    .huddle-hero p {
+        max-width: 23rem;
+    }
+
+    .huddle-hero button {
+        margin-top: 2rem;
+    }
+
+    .hero-image {
+        display: flex;
+        flex-direction: row-reverse;
+        transform: translateY(-23rem);
+    }
+
+    .hero-image img {
+        position: block;
+        max-width: 50%;
+        margin-right: 1rem;
+    }
+
+    .huddle-benefits img {
+        max-width: 40%;
+    }
+
+    .huddle-growth,
+    .huddle-user {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .huddle-growth h2,
+    .huddle-user h2 {
+        text-align: start;
+        margin: auto;
+    }
+
+    .huddle-growth p,
+    .huddle-user p {
+        max-width: 23rem;
+    }
+
+    .huddle-flow {
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .huddle-flow h2 {
+        margin: auto;
+        max-width: 24rem;
+    }
+
 }
